@@ -1,0 +1,49 @@
+<svg width="600" height="380" viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>BOLTT LLC</title>
+  <desc>BOLTT LLC logo, dark version.</desc>
+
+  <rect width="600" height="380" rx="6" fill="#1A1C1F"/>
+
+  <line x1="0" y1="40" x2="600" y2="40" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.06"/>
+  <line x1="0" y1="340" x2="600" y2="340" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.06"/>
+  <line x1="40" y1="0" x2="40" y2="380" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>
+  <line x1="560" y1="0" x2="560" y2="380" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>
+
+  <!-- Cat-bolt mark, centered at x=300 (offset from original 340 by -40) -->
+  <polygon points="284,70 274,96 290,122 276,122 258,162 302,106 284,106 306,70 300,82" fill="#E8580A"/>
+  <polygon points="306,70 300,82 318,106 298,106 324,162 308,122 326,122 316,96 328,70" fill="#E8580A"/>
+  <polygon points="284,72 278,90 290,86" fill="#1A1C1F" opacity="0.55"/>
+  <polygon points="306,72 312,90 300,86" fill="#1A1C1F" opacity="0.55"/>
+  <polygon points="300,84 294,104 300,100 306,104 300,84" fill="#F5813A" opacity="0.4"/>
+
+  <line x1="80" y1="117" x2="252" y2="117" stroke="#E8580A" stroke-width="0.6" stroke-opacity="0.4"/>
+  <line x1="350" y1="117" x2="520" y2="117" stroke="#E8580A" stroke-width="0.6" stroke-opacity="0.4"/>
+
+  <text x="300" y="232" text-anchor="middle"
+    font-family="'Arial Black', 'Arial', sans-serif"
+    font-weight="900"
+    font-size="72"
+    letter-spacing="18"
+    fill="#F0F0EC">BOLTT</text>
+
+  <rect x="128" y="240" width="346" height="2.5" rx="1" fill="#E8580A" opacity="0.85"/>
+
+  <text x="300" y="278" text-anchor="middle"
+    font-family="'Arial', sans-serif"
+    font-weight="400"
+    font-size="13"
+    letter-spacing="8"
+    fill="#888880">LLC</text>
+
+  <text x="300" y="316" text-anchor="middle"
+    font-family="'Arial', sans-serif"
+    font-weight="400"
+    font-size="11"
+    letter-spacing="3.5"
+    fill="#555550">SOVEREIGN CLOUD INFRASTRUCTURE</text>
+
+  <path d="M16 16 L16 28 M16 16 L28 16" stroke="#E8580A" stroke-width="0.8" stroke-opacity="0.5" fill="none"/>
+  <path d="M584 16 L584 28 M584 16 L572 16" stroke="#E8580A" stroke-width="0.8" stroke-opacity="0.5" fill="none"/>
+  <path d="M16 364 L16 352 M16 364 L28 364" stroke="#E8580A" stroke-width="0.8" stroke-opacity="0.5" fill="none"/>
+  <path d="M584 364 L584 352 M584 364 L572 364" stroke="#E8580A" stroke-width="0.8" stroke-opacity="0.5" fill="none"/>
+</svg>
