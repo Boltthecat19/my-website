@@ -1,6 +1,6 @@
 /* added body type selector font family and line height for module 4 assignment */ 
 body {
-    background-color: #1A1C1F;
+    background: linear-gradient(180deg, #1A1C1F 0%, #2A1A15 100%);
     color: #7FFFD4;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
 }
 /* changed to rem for module 4 assignment */
-img {
+nav img {
     width: auto;
     height: 4.375rem;
     margin-left: -1.125rem;
@@ -45,10 +45,17 @@ nav a:hover {
 /* changed to rem for module 4 assignment */ 
 section {
     padding: 5rem 20%;
+    border-bottom: 1px solid #E8580A;
 }
 /* combination selector style all headings together for module 4 assignment */
 h1, h2 {
     letter-spacing: 0.05em;
     font-weight: 600;
+}
+/* 3-column layout for the how-it-works page */
+#steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
 }
 
