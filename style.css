@@ -1,4 +1,4 @@
-/* added body type selector font family and line height for module 4 assignment */ 
+/* Base page styles: dark gradient background, aquamarine text, readable line height */
 body {
     background: linear-gradient(180deg, #1A1C1F 0%, #2A1A15 100%);
     color: #7FFFD4;
@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
 }
-/* changed to rem for module 4 assignment */
+/* Logo sizing, nudged left to align with the page edge */
 nav img {
     width: auto;
     height: 4.375rem;
@@ -16,20 +16,20 @@ nav img {
 #hero {
     text-align: center;
 }
-/* changed to rem for module 4 assignment */ 
-#nav { 
+/* Horizontal nav bar laid out with flexbox */
+#nav {
     display: flex;
     align-items: center;
     padding: 1rem 2rem 1rem 0.3125rem;
     margin: 0;
 }
-/* style links inside nav for module assignment 4 */ 
+/* Nav links: aquamarine, no underline, spaced apart */
 nav a {
     color: #7FFFD4;
     text-decoration: none;
     margin-left: 1rem;
 }
-/* adding hover for nav module 4 assignment*/ 
+/* Nav link hover state turns orange */
 nav a:hover {
     color: #FF8C00;
 }
@@ -42,12 +42,17 @@ nav a:hover {
 #ebi {
     text-align: center;
 }
-/* changed to rem for module 4 assignment */ 
+/* Scalable image: shrinks to fit its container, never overflows, keeps aspect ratio */
+#ebi img {
+    max-width: 100%;
+    height: auto;
+}
+/* Section spacing and divider line between sections */
 section {
     padding: 5rem 20%;
     border-bottom: 1px solid #E8580A;
 }
-/* combination selector style all headings together for module 4 assignment */
+/* Shared heading style for h1 and h2 */
 h1, h2 {
     letter-spacing: 0.05em;
     font-weight: 600;
@@ -57,5 +62,19 @@ h1, h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+}
+
+/* Tablet and below: stacks the 3-step grid into a single column so it stays readable */
+@media (max-width: 48rem) {
+    #steps {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Phone and below: reduce the large side padding so text isn't squeezed into a sliver */
+@media (max-width: 30rem) {
+    section {
+        padding: 3rem 8%;
+    }
 }
 

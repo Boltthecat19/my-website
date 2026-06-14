@@ -7,18 +7,21 @@
     <title>Boltt | Sovereign Cloud</title>
 </head>
 <body>
+ <!-- Site navigation - keep this identical on every page -->
  <nav id="nav">
     <img src="images/boltt-logo-dark2.svg" alt="BOLTT Logo">
-    <a href="#problem">Problem</a>
-    <a href="#solution">Solution</a>
-    <a href="#ebi">Ebi</a>
+    <a href="index.html">Home</a>
     <a href="how-it-works.html">How It Works</a>
+    <a href="about.html">About</a>
  </nav>
+
  <main>
     <section id="hero">
        <h1>Who's Managing your cloud infrastructure?</h1>
        <p>Is it someone in a foreign country? Do you even know?</p>
        <p>Don't you think you should?</p>
+       <!-- Same-page link jumps down to the Ebi section -->
+       <p><a href="#ebi">Meet Ebi &darr;</a></p>
     </section>
     <section id="problem">
        <h2>Why should you even care?</h2>
@@ -42,6 +45,8 @@
  </main>
  <footer>
    <p>&copy; 2026 BOLTT. All rights reserved.</p>
- </footer>
+   <!-- External link opens in a new browser tab -->
+   <p><a href="https://www.fedramp.gov" target="_blank" rel="noopener">Learn about FedRAMP</a></p>
+</footer>
  </body>
 </html>
