@@ -20,6 +20,7 @@ nav img {
 #nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1rem 2rem 1rem 0.3125rem;
     margin: 0;
 }
@@ -64,10 +65,25 @@ h1, h2 {
     gap: 2rem;
 }
 
+/* Flexbox #2: two-column mission/beliefs layout on the About page */
+#about-values {
+    display: flex;
+    gap: 3rem;
+    text-align: left;
+}
+/* Each column shares the row width equally */
+.value-col {
+    flex: 1;
+}
+
 /* Tablet and below: stacks the 3-step grid into a single column so it stays readable */
 @media (max-width: 48rem) {
     #steps {
         grid-template-columns: 1fr;
+    }
+    /* Stack the About page columns vertically instead of side by side */
+    #about-values {
+        flex-direction: column;
     }
 }
 
