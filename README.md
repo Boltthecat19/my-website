@@ -2,8 +2,7 @@
 
 This is a website for BOLTT, a company idea for a "sovereign cloud" you run on
 your own hardware, with an AI helper named Ebi. I built it for CIS155 Web
-Development at Olympic College using plain HTML and CSS. No JavaScript or
-frameworks.
+Development at Olympic College using plain HTML and CSS. 
 
 ## Pages
 
