@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon (BOLTT logo) -->
+    <link rel="icon" type="image/svg+xml" href="images/boltt-logo-dark2.svg">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- my styles -->
     <link rel="stylesheet" href="style.css">
     <title>Boltt | Sovereign Cloud</title>
 </head>
 <body>
  <!-- Site navigation - keep this identical on every page -->
  <nav id="nav">
-    <img src="images/boltt-logo-dark2.svg" alt="BOLTT Logo">
+    <!-- logo links back home -->
+    <a href="index.html" id="logo-link"><img src="images/boltt-logo-dark2.svg" alt="BOLTT Logo"></a>
     <a href="index.html">Home</a>
     <a href="how-it-works.html">How It Works</a>
     <a href="about.html">About</a>
+    <a href="contact.html">Request Access</a>
  </nav>
 
  <main>
@@ -20,20 +29,20 @@
        <h1>Who's Managing your cloud infrastructure?</h1>
        <p>Is it someone in a foreign country? Do you even know?</p>
        <p>Don't you think you should?</p>
-       <!-- Same-page link jumps down to the Ebi section -->
-       <p><a href="#ebi">Meet Ebi &darr;</a></p>
+       <!-- Styled call-to-action button that jumps down to the Ebi section -->
+       <p><a class="cta" href="#ebi">Meet Ebi <i class="fa-solid fa-arrow-down"></i></a></p>
     </section>
     <section id="problem">
        <h2>Why should you even care?</h2>
-       <p>If you host your cloud services on Azure or anywhere else not owned and opperated by you, you dont really know who has access to the data that lives there</p>
+       <p>If you host your cloud services on Azure or anywhere else not owned and operated by you, you don't really know who has access to the data that lives there.</p>
     </section>
     <section id="solution">
        <h2>So what is BOLTT?</h2>
-       <p>BOLTT is a locally deployed "cloud" you run on your own infrastructure. Not a new concept. This is how things were done before the cloud. What makes BOLTT special is how easy it is to configure and employ, thanks to our cat friend Ebi</p>
+       <p>BOLTT is a locally deployed "cloud" you run on your own infrastructure. Not a new concept. This is how things were done before the cloud. What makes BOLTT special is how easy it is to configure and employ, thanks to our cat friend Ebi.</p>
     </section>
     <section id="ebi">
-       <h2>Ebi is the AI thred woven through every system and service in BOLTT.</h2>
-       <p>She sees "every nibble" in your system and can administer your system the way a seasoned system admin would. Ebi is a sys admin tool, a llm for your employees, and sentry for physical security and your peice of mind. You dont need to hunt information, you can just ask:</p>
+       <h2>Ebi is the AI thread woven through every system and service in BOLTT.</h2>
+       <p>She sees "every nibble" in your system and can administer your system the way a seasoned system admin would. Ebi is a sys admin tool, an LLM for your employees, and sentry for physical security and your peace of mind. You don't need to hunt information, you can just ask:</p>
        <ul>
           <li>"Ebi, generate me a Fedramp report."</li>
           <li>"Ebi, tell me who has logged into the system in the last 6 hours and where they connected from."</li>
